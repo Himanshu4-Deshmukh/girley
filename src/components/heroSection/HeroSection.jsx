@@ -3,7 +3,7 @@ import React from 'react'
 function HeroSection() {
   return (
     <div>
-        <img src="https://raw.githubusercontent.com/Himanshu4-Deshmukh/girley/main/src/assets/hero.jpg?token=GHSAT0AAAAAAB77DUJ26RP6OJC4HT2JYAVUZPYLEOQ" alt="" />
+        <img src="/src/assets/hero.jpg" alt="" />
     </div>
   )
 }
