@@ -37,6 +37,9 @@ function Footer() {
                 <li>
                   <Link to={'/contact'} className="text-gray-600 hover:text-gray-800" style={{ color: mode === 'dark' ? 'white' : '' }}>Contact Us</Link>
                 </li>
+                <li>
+                  <Link to={'/term-condition'} className="text-gray-600 hover:text-gray-800" style={{ color: mode === 'dark' ? 'white' : '' }}>Term-Condition</Link>
+                </li>
               </nav>
             </div>
 
@@ -65,11 +68,11 @@ function Footer() {
           <div className="container px-5 py-3 mx-auto flex items-center sm:flex-row flex-col">
             <Link to={'/'} className='flex'>
               <div className="flex ">
-                <h1 className=' text-2xl font-bold text-black  px-2 py-1 rounded' style={{ color: mode === 'dark' ? 'white' : '', }}>KRISHICARE</h1>
+                <h1 className=' text-2xl font-bold   px-2 py-1 rounded' style={{ color: mode === '#fc694b' ? 'white' : '', }}>Kanika Play Hub</h1>
               </div>
             </Link>
-            <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4" style={{ color: mode === 'dark' ? 'white' : '' }}>© 2023 KRISHICARE —
-              <a href="" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank" style={{ color: mode === 'dark' ? 'white' : '' }}>www.krishicare.com</a>
+            <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4" style={{ color: mode === 'dark' ? 'white' : '' }}>© 2023 Kanika Play Hub —
+              <a href="" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank" style={{ color: mode === 'dark' ? 'white' : '' }}>https://kanikaplayhub.com/</a>
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
               <a className="text-gray-500">

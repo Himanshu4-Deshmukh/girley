@@ -21,7 +21,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Allproducts from './pages/allproducts/Allproducts';
 import Loan from './pages/loan/Loan';
-import Policies from './pages/policies/Policies';
+import Policies from './pages/privacypolicy/Policies';
 import Soil from './pages/soil/Soil';
 import Weather from './pages/weather/Weather'
 import Seller from './pages/seller/Seller'
@@ -36,11 +36,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/allproducts" element={<Allproducts />} />
           <Route path="/hoodie" element={<Hoodies />} />
-          <Route path="/loan" element={<Loan />} />
+          <Route path="/term-condition" element={<Loan />} />
           <Route path="/tshirt" element={<Tsh />} />
-          <Route path="/policies" element={<Policies />} />
-          <Route path="/soil" element={<Soil />} />
-          <Route path="/weather" element={<Weather />} />
+          <Route path="/privacypolicy" element={<Policies />} />
+          <Route path="/returnpolicy" element={<Soil />} />
+          <Route path="/contact" element={<Weather />} />
           <Route path="/cod" element={<Cod />} />
           <Route path="/seller" element={<Seller />} />
           <Route path="/order" element={
