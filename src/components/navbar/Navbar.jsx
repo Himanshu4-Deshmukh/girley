@@ -235,7 +235,7 @@ function Navbar() {
                           {/* Display only the first two letters on mobile screens */}
                           <span className="hidden  sm:inline">
                             <img 
-                              src="https://girley.in/logo2.png"
+                              src="https://logos.textgiraffe.com/logos/logo-name/Kanika-designstyle-smoothie-m.png"
                               alt=""
                               width="55%"
                             />
