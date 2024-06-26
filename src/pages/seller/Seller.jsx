@@ -5,7 +5,7 @@ const Seller = () => {
   return (
     <Layout>
        <header class="bg-blue-500 text-white py-4">
-        <h1 class="text-3xl font-semibold mt-16 mb-16 text-center">Refund Policy</h1>
+        <h1 class="text-3xl font-semibold mt-16 mb-16 text-center">About Us</h1>
     </header>
     <div className="flex flex-wrap justify-around">
       <div style={{ maxWidth: "800px", margin: "0 auto" }}>
