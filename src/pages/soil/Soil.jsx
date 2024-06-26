@@ -73,27 +73,45 @@ const SoilQualityTester = () => {
         <h1 class="text-3xl font-semibold mt-16 mb-16 text-center">Refund Policy</h1>
     </header>
     <div className="flex flex-wrap justify-around">
-      {/* {cardData.map((card) => (
-        <Card key={card.id} {...card} />
-      ))} */}
+      <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+        <p style={{ color: "gray", padding: "50px" }}>
+          We at Kanika Play Hub strive to provide you with a quality product of your choice. If for any reason you are not satisfied with your order, please contact us at <a href="mailto:orders@kanikaplayhub.com">orders@kanikaplayhub.com</a>.
 
-      <p style={{color:"gray", padding:"50px"}}>
-     
-       <b>
+          <h2>What is Kanika Play Hub's Exchange Policy?</h2>
+          <p>
+            If you are unhappy with the product you have received or need a size change, you can request a return from your Orders Page.
+          </p>
+          <p>
+            Once the returned item(s) are received, they will be checked, and we will issue credits in your Kanika Play Hub Wallet for the value of the returned products. A return handling charge of Rs. 50 per product will be applied, except in the case of a wrong or defective product sent. Alpha Members are entitled to free returns and will not be charged any return handling fees. Cash on Delivery handling charges and shipping charges are non-refundable. You can use these credits to place a new order.
+          </p>
+          <p>
+            Items must be unused and returned within 15 days of delivery.
+          </p>
 
-Thanks for being a patron with KANIKA PLAYHUB PRIVATE LIMITED (referred as “ludo khelo yaar”)  . If you are not entirely satisfied with your subscription, we are here to help.
+          <h2>I have received a wrong/defective product. How do I proceed?</h2>
+          <p>
+            Please request a return from your Orders page and specify the error or defect in your order.
+          </p>
+          <p>
+            Please raise a return request or inform us by sending an email to <a href="mailto:orders@kanikaplayhub.com">orders@kanikaplayhub.com</a> within 48 hours of delivery if you have received a wrong product. Taking a video of opening the package will help in a quick resolution for damaged or defective products.
+          </p>
+          <p>
+            Please inform us by sending an email to <a href="mailto:orders@kanikaplayhub.com">orders@kanikaplayhub.com</a> within 48 hours in case you have not received your order but have received an email or SMS stating that your order is delivered.
+          </p>
 
-<br />
-Refund
-
-Once we receive your Refund request, we will inspect it and notify you on the status of your refund.
-<br />
-If your refund request is approved, we will initiate a refund to your credit card (or original method of payment) within 7 working days. You will receive the credit within a certain amount of days, depending on your card issuer's policies.
-<br />
-In case of unforeseen technical glitch, KANIKA PLAYHUB PRIVATE LIMITED would refund subscription upon reviewing the complaint. Final decision lies with the company.
-</b>
- </p>
+          {/* Include other sections similarly */}
+          
+          <h2>Can I cancel my order before it is Shipped out?</h2>
+          <p>
+            You can cancel your order from your Orders page if it has not yet been processed at our office. All orders are usually processed by 11 AM every working day. Orders containing certain products cannot be cancelled once manufactured due to printing on demand.
+          </p>
+          <p>
+            If you have any further questions about the return/exchange policy, please contact us at <a href="mailto:orders@kanikaplayhub.com">orders@kanikaplayhub.com</a>.
+          </p>
+        </p>
+      </div>
     </div>
+
     </Layout>
   );
 };

@@ -42,7 +42,7 @@ function App() {
           <Route path="/returnpolicy" element={<Soil />} />
           <Route path="/contact" element={<Weather />} />
           <Route path="/cod" element={<Cod />} />
-          <Route path="/seller" element={<Seller />} />
+          <Route path="/about" element={<Seller />} />
           <Route path="/order" element={
             <ProtectedRoute>
               <Order />
