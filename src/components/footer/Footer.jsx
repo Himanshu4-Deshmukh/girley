@@ -14,10 +14,10 @@ function Footer() {
               <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3" style={{ color: mode === 'dark' ? 'white' : '' }}>CATEGORIES</h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800" style={{ color: mode === 'dark' ? 'white' : '' }}>Home</a>
+                  <a href='/' className="text-gray-600 hover:text-gray-800" style={{ color: mode === 'dark' ? 'white' : '' }}>Home</a>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800" style={{ color: mode === 'dark' ? 'white' : '' }}>Order</a>
+                  <a href='/order' className="text-gray-600 hover:text-gray-800" style={{ color: mode === 'dark' ? 'white' : '' }}>Order</a>
                 </li>
                 
                 <li>
@@ -39,6 +39,14 @@ function Footer() {
                 </li>
                 <li>
                   <Link to={'/term-condition'} className="text-gray-600 hover:text-gray-800" style={{ color: mode === 'dark' ? 'white' : '' }}>Term-Condition</Link>
+                </li>
+                <li>
+                  <Link to={'/faq'} className="text-gray-600 hover:text-gray-800" style={{ color: mode === 'dark' ? 'white' : '' }}>
+                  Frequently Asked Questions</Link>
+                </li>
+                <li>
+                  <Link to={'/deliveri-info'} className="text-gray-600 hover:text-gray-800" style={{ color: mode === 'dark' ? 'white' : '' }}>
+                  Delivery Information</Link>
                 </li>
               </nav>
             </div>

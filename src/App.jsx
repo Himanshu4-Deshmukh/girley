@@ -28,6 +28,8 @@ import Seller from './pages/seller/Seller'
 import Cod from './pages/cod/Cod'
 import Tsh from './pages/tshirt/Tsh';
 import Hoodies  from './pages/hoodie/Hoodies'
+import Faq from './pages/Faq/faq'
+import Info from './pages/info/Info'
 function App() {
   return (
     <MyState>
@@ -35,6 +37,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/allproducts" element={<Allproducts />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/deliveri-info" element={<Info />} />
           <Route path="/hoodie" element={<Hoodies />} />
           <Route path="/term-condition" element={<Loan />} />
           <Route path="/tshirt" element={<Tsh />} />
