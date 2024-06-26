@@ -18,7 +18,7 @@ const Seller = () => {
           We are fans. We are geeks. We are the shows that you stayed up late at night to binge-watch. We are the movies that you struggled to get tickets to for the first show. We are the anime series that you watched with subtitles (no dubs, please). We are your favorite character’s catchphrase that you’ve casually thrown into a conversation. We are Kanika Play Hub.
         </p>
         <p>
-          Founded in 20XX in Mumbai, Kanika Play Hub is a direct-to-consumer specialty brand that focuses on licensed pop culture-inspired apparel and accessories. We are an independent, self-funded business started by a bunch of friends who quit their cushy jobs to try and do something cool, and here we are some 10+ years later still excited about the next great t-shirt that we’re about to drop.
+          Founded in 20XX in Delhi, Kanika Play Hub is a direct-to-consumer specialty brand that focuses on licensed pop culture-inspired apparel and accessories. We are an independent, self-funded business started by a bunch of friends who quit their cushy jobs to try and do something cool, and here we are some 10+ years later still excited about the next great t-shirt that we’re about to drop.
         </p>
         <p>
           We started this journey by making awesome graphic tees and have slowly expanded over the years to host a full lineup of apparel and accessories. We have always laid emphasis on sourcing our products locally and we continue to do so with every new product line that we launch. We’re inspired by the multiverse, but proudly made in India!
@@ -60,7 +60,7 @@ const Seller = () => {
           <li>Quartz: "Just like its tickets, Avengers merch is selling like hot cakes in India" (24 Apr, 2019)</li>
           <li>Homegrown: "9 Unconventional Indian T-Shirt Companies That Are Changing The Game" (04 Sep, 2017)</li>
           <li>Stuff: "The 7 Best Game of Thrones Collectibles" (01 Aug, 2017)</li>
-          <li>LBB Mumbai: "Gear Up For The Penultimate Game Of Thrones Season With Themed Merchandise From Kanika Play Hub" (31 Jul, 2017)</li>
+          <li>LBB Delhi: "Gear Up For The Penultimate Game Of Thrones Season With Themed Merchandise From Kanika Play Hub" (31 Jul, 2017)</li>
           <li>LBB Bangalore: "GoT & Breaking Bad: Pick Your Favourite Tees And Merch For A Steal" (19 Jun, 2017)</li>
           <li>MensXP: "9 Desi Clothing Brands Online That Are Better Off Than Many Foreign Brands" (10 Feb, 2016)</li>
           <li>The Economic Times: "TV shows and games-inspired tees now a sellout in India" (12 Sep, 2015)</li>
