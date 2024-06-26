@@ -82,14 +82,14 @@ const WeatherForecast = () => {
        <b>
         <center>
 
-       Support@ludokheloyaar.com
+       Support@kanikaplayhub.com
        <br />
 9672002542
 <br />
 KANIKA PLAYHUB PRIVATE LIMITED
+<br />
 111 BLOCK D1 GALI NO 3, BADARPUR SOUTH, Badarpur (South Delhi), New Delhi, South Delhi- 110044, Delhi
-nothingLUDO KHELO YAAR WIN REAL CASHFor best experience, open ludo khelo yaar on  chrome mobile
-nothingLUDO KHELO YAAR WIN REAL CASH
+ 
         </center>
 </b>
  </p>
