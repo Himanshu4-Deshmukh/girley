@@ -108,7 +108,7 @@ const FeaturedThemesCarousel = () => {
             {/* Adjust the width as per your requirement */}
             <div className="item">
               <a
-                href="https://www.redwolf.in/slogan-merchandise-india"
+                href="#"
                 onClick={() => handleThemeClick("SLOGAN")}
               >
                 <img
@@ -138,7 +138,7 @@ const FeaturedThemesCarousel = () => {
             {/* Adjust the width as per your requirement */}
             <div className="item">
               <a
-                href="https://www.redwolf.in/slogan-merchandise-india"
+                href="#"
                 onClick={() => handleThemeClick("SLOGAN")}
               >
                 <img
@@ -168,7 +168,7 @@ const FeaturedThemesCarousel = () => {
             {/* Adjust the width as per your requirement */}
             <div className="item">
               <a
-                href="https://www.redwolf.in/slogan-merchandise-india"
+                href="#"
                 onClick={() => handleThemeClick("SLOGAN")}
               >
                 <img
@@ -198,7 +198,7 @@ const FeaturedThemesCarousel = () => {
             {/* Adjust the width as per your requirement */}
             <div className="item">
               <a
-                href="https://www.redwolf.in/slogan-merchandise-india"
+                href="#"
                 onClick={() => handleThemeClick("SLOGAN")}
               >
                 <img
@@ -228,7 +228,7 @@ const FeaturedThemesCarousel = () => {
             {/* Adjust the width as per your requirement */}
             <div className="item">
               <a
-                href="https://www.redwolf.in/slogan-merchandise-india"
+                href="#"
                 onClick={() => handleThemeClick("SLOGAN")}
               >
                 <img
@@ -258,7 +258,7 @@ const FeaturedThemesCarousel = () => {
             {/* Adjust the width as per your requirement */}
             <div className="item">
               <a
-                href="https://www.redwolf.in/slogan-merchandise-india"
+                href="#"
                 onClick={() => handleThemeClick("SLOGAN")}
               >
                 <img

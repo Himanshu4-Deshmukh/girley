@@ -84,7 +84,7 @@ const WeatherForecast = () => {
 
        Support@kanikaplayhub.com
        <br />
-9672002542
+8920427690
 <br />
 KANIKA PLAYHUB PRIVATE LIMITED
 <br />
