@@ -38,7 +38,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/allproducts" element={<Allproducts />} />
           <Route path="/faq" element={<Faq />} />
-          <Route path="/deliveri-info" element={<Info />} />
+          <Route path="/delivery-info" element={<Info />} />
           <Route path="/hoodie" element={<Hoodies />} />
           <Route path="/term-condition" element={<Loan />} />
           <Route path="/tshirt" element={<Tsh />} />
@@ -98,7 +98,7 @@ export const ProtectedRoute = ({children}) => {
 const ProtectedRouteForAdmin = ({children})=> {
   const admin = JSON.parse(localStorage.getItem('user'))
   
-  if(admin.user.email === 'deshmukhh517@gmail.com'){
+  if(admin.user.email === 'himanshu@vahanfin.com'){
     return children
   }
   else{

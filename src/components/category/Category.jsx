@@ -23,10 +23,8 @@ const FeaturedThemesCarousel = () => {
       style={{ textAlign: "center", display: "flex", justifyContent: "center" }}
     >
       <div className="owl-stage-outer">
-        <div className="row mt-6">
-          <br />
-          <br />
-          <h2 className="text-center text-4xl mb-8 carousel_title"><strong>Featured Themes</strong> </h2>
+        <div class="row">
+          <h2 className="text-center text-4xl mb-6 carousel_title"><strong>Featured Themes</strong> </h2>
         </div>
         <div
           className="owl-stage"
@@ -63,6 +61,7 @@ const FeaturedThemesCarousel = () => {
               </a>
             </div>
           </div>
+
           <div
             className="owl-item"
             style={{
@@ -75,6 +74,7 @@ const FeaturedThemesCarousel = () => {
             }}
           >
             {" "}
+            
             {/* Adjust the width as per your requirement */}
             <div className="item">
               <a
@@ -82,10 +82,10 @@ const FeaturedThemesCarousel = () => {
                 onClick={() => handleThemeClick("SLOGAN")}
               >
                 <img
-                  src="https://www.redwolf.in/image/cache/catalog/featured_categories/featured-theme-glow-in-dark-300x300.jpg?m=1706184531"
+                  src="https://www.stirlingsports.co.nz/productimages/magnify/1/104727_623747_97552.jpg"
                   alt="SLOGAN"
                   className="custom-img-responsive featured-themes-carousel-img"
-                  style={{ maxWidth: "100%", height: "auto" }}
+                  style={{ maxWidth: "100%", height: "auto",borderRadius:"100px" }}
                 />
                 <span className="featured_theme_title text-uppercase">
                 <strong>Hoodie</strong>
@@ -105,24 +105,26 @@ const FeaturedThemesCarousel = () => {
             }}
           >
             {" "}
+            
             {/* Adjust the width as per your requirement */}
             <div className="item">
               <a
-                href="https://www.redwolf.in/slogan-merchandise-india"
+                href="/hoodie"
                 onClick={() => handleThemeClick("SLOGAN")}
               >
                 <img
-                  src="https://www.redwolf.in/image/cache/catalog/featured_categories/featured-theme-geek-300x300.jpg?m=1706184531"
+                  src="https://i.pinimg.com/736x/35/a6/a8/35a6a818c43b136a53b466e9b523f8b3.jpg"
                   alt="SLOGAN"
                   className="custom-img-responsive featured-themes-carousel-img"
-                  style={{ maxWidth: "100%", height: "auto" }}
+                  style={{ maxWidth: "100%", height: "auto",borderRadius:"100px" }}
                 />
                 <span className="featured_theme_title text-uppercase">
-                <strong>TSHIRTS</strong>
+                <strong>Coming Soon</strong>
                 </span>
               </a>
             </div>
           </div>
+
           <div
             className="owl-item"
             style={{
@@ -135,144 +137,9 @@ const FeaturedThemesCarousel = () => {
             }}
           >
             {" "}
-            {/* Adjust the width as per your requirement */}
-            <div className="item">
-              <a
-                href="https://www.redwolf.in/slogan-merchandise-india"
-                onClick={() => handleThemeClick("SLOGAN")}
-              >
-                <img
-                  src="https://www.redwolf.in/image/cache/catalog/featured_categories/featured-theme-slogan-300x300.jpg?m=1706184531"
-                  alt="SLOGAN"
-                  className="custom-img-responsive featured-themes-carousel-img"
-                  style={{ maxWidth: "100%", height: "auto" }}
-                />
-                <span className="featured_theme_title text-uppercase">
-                <strong>TSHIRTS</strong>
-                </span>
-              </a>
-            </div>
+           
           </div>
-          <div
-            className="owl-item"
-            style={{
-              width: "150px",
-              display: "flex",
-              justifyContent: "center",
-              marginBottom: "20px",
-              marginLeft:"5px",
-              marginRight:"5px"
-            }}
-          >
-            {" "}
-            {/* Adjust the width as per your requirement */}
-            <div className="item">
-              <a
-                href="https://www.redwolf.in/slogan-merchandise-india"
-                onClick={() => handleThemeClick("SLOGAN")}
-              >
-                <img
-                  src="https://www.redwolf.in/image/cache/catalog/featured_categories/featured-theme-cartoon-300x300.jpg?m=1706184531"
-                  alt="SLOGAN"
-                  className="custom-img-responsive featured-themes-carousel-img"
-                  style={{ maxWidth: "100%", height: "auto" }}
-                />
-                <span className="featured_theme_title text-uppercase">
-                <strong>TSHIRTS</strong>
-                </span>
-              </a>
-            </div>
-          </div>
-          <div
-            className="owl-item"
-            style={{
-              width: "150px",
-              display: "flex",
-              justifyContent: "center",
-              marginBottom: "20px",
-              marginLeft:"5px",
-              marginRight:"5px"
-            }}
-          >
-            {" "}
-            {/* Adjust the width as per your requirement */}
-            <div className="item">
-              <a
-                href="https://www.redwolf.in/slogan-merchandise-india"
-                onClick={() => handleThemeClick("SLOGAN")}
-              >
-                <img
-                  src="https://www.redwolf.in/image/cache/catalog/featured_categories/featured-theme-slogan-300x300.jpg?m=1706184531"
-                  alt="SLOGAN"
-                  className="custom-img-responsive featured-themes-carousel-img"
-                  style={{ maxWidth: "100%", height: "auto" }}
-                />
-                <span className="featured_theme_title text-uppercase">
-                <strong>TSHIRTS</strong>
-                </span>
-              </a>
-            </div>
-          </div>
-          <div
-            className="owl-item"
-            style={{
-              width: "150px",
-              display: "flex",
-              justifyContent: "center",
-              marginBottom: "20px",
-              marginLeft:"5px",
-              marginRight:"5px"
-            }}
-          >
-            {" "}
-            {/* Adjust the width as per your requirement */}
-            <div className="item">
-              <a
-                href="https://www.redwolf.in/slogan-merchandise-india"
-                onClick={() => handleThemeClick("SLOGAN")}
-              >
-                <img
-                  src="https://www.redwolf.in/image/cache/catalog/featured_categories/featured-theme-slogan-300x300.jpg?m=1706184531"
-                  alt="SLOGAN"
-                  className="custom-img-responsive featured-themes-carousel-img"
-                  style={{ maxWidth: "100%", height: "auto" }}
-                />
-                <span className="featured_theme_title text-uppercase">
-                <strong>TSHIRTS</strong>
-                </span>
-              </a>
-            </div>
-          </div>
-          <div
-            className="owl-item"
-            style={{
-              width: "150px",
-              display: "flex",
-              justifyContent: "center",
-              marginBottom: "20px",
-              marginLeft:"5px",
-              marginRight:"5px"
-            }}
-          >
-            {" "}
-            {/* Adjust the width as per your requirement */}
-            <div className="item">
-              <a
-                href="https://www.redwolf.in/slogan-merchandise-india"
-                onClick={() => handleThemeClick("SLOGAN")}
-              >
-                <img
-                  src="https://www.redwolf.in/image/cache/catalog/featured_categories/featured-theme-slogan-300x300.jpg?m=1706184531"
-                  alt="SLOGAN"
-                  className="custom-img-responsive featured-themes-carousel-img"
-                  style={{ maxWidth: "100%", height: "auto" }}
-                />
-                <span className="featured_theme_title text-uppercase">
-                <strong>TSHIRTS</strong>
-                </span>
-              </a>
-            </div>
-          </div>
+          
           {/* Add more carousel items as needed */}
         </div>
       </div>
