@@ -83,13 +83,13 @@ function Cart() {
     }
 
     var options = {
-      key: "rzp_test_LetnicYdIN9c1h",
-      key_secret: "D9rULk9SvjfSPZdvfvqn0A2C",
+      key: "rzp_live_KTDUkB8xlMRTNg",
+      key_secret: "5fAew2x0AqlWdGlfue1g8wQd",
       amount: parseInt(grandTotal * 100),
       currency: "INR",
       order_receipt: 'order_rcptid_' + name,
-      name: "Krishicare",
-      description: "for testing purpose",
+      name: "Kanika Play Hub",
+      description: "Kanika Play Hub",
       handler: function (response) {
         console.log(response)
         toast.success('Payment Successful')
