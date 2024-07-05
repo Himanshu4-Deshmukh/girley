@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '../../components/layout/Layout';
 
@@ -9,14 +8,12 @@ const cardData = [
     content: 'The PM-KISAN Scheme offers direct income support to small and marginal farmers in India.',
     buttonUrl: 'https://pmkisan.gov.in/'
   },
-
   {
     id: 2,
     title: 'Pradhan Mantri Kisan Samman Nidhi Scheme',
     content: 'The PM-KISAN Scheme offers direct income support to small and marginal farmers in India.',
     buttonUrl: 'https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1946816'
   },
-
   {
     id: 3,
     title: 'Card 3',
@@ -51,9 +48,8 @@ const Card = ({ id, title, content, buttonUrl }) => {
   };
 
   return (
-
     <div className="w-1/3 p-4">
-      <div className="bg-white-1 shadow-md rounded overflow-hidden transform transition-transform duration-300 hover:scale-105">
+      <div className="bg-white shadow-md rounded overflow-hidden transform transition-transform duration-300 hover:scale-105">
         <div className="p-4">
           <h2><b>{title}</b></h2>
           <p>{content}</p>
@@ -69,13 +65,14 @@ const Card = ({ id, title, content, buttonUrl }) => {
 const SoilQualityTester = () => {
   return (
     <Layout>
-       <header class="bg-blue-500 text-white py-4">
-        <h1 class="text-3xl font-semibold mt-16 mb-16 text-center">Refund Policy</h1>
-    </header>
-    <div className="flex flex-wrap justify-around">
-      <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-        <p style={{ color: "gray", padding: "50px" }}>
-          We at Kanika Play Hub strive to provide you with a quality product of your choice. If for any reason you are not satisfied with your order, please contact us at <a href="mailto:orders@kanikaplayhub.com">orders@kanikaplayhub.com</a>.
+      <header className="bg-blue-500 text-white py-4">
+        <h1 className="text-3xl font-semibold mt-16 mb-16 text-center">Refund Policy</h1>
+      </header>
+      <div className="flex flex-wrap justify-around">
+        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+          <p style={{ color: "gray", padding: "50px" }}>
+            We at Kanika Play Hub strive to provide you with a quality product of your choice. If for any reason you are not satisfied with your order, please contact us at <a href="mailto:orders@kanikaplayhub.com">orders@kanikaplayhub.com</a>.
+          </p>
 
           <h2>What is Kanika Play Hub's Exchange Policy?</h2>
           <p>
@@ -99,8 +96,6 @@ const SoilQualityTester = () => {
             Please inform us by sending an email to <a href="mailto:orders@kanikaplayhub.com">orders@kanikaplayhub.com</a> within 48 hours in case you have not received your order but have received an email or SMS stating that your order is delivered.
           </p>
 
-          {/* Include other sections similarly */}
-          
           <h2>Can I cancel my order before it is Shipped out?</h2>
           <p>
             You can cancel your order from your Orders page if it has not yet been processed at our office. All orders are usually processed by 11 AM every working day. Orders containing certain products cannot be cancelled once manufactured due to printing on demand.
@@ -108,15 +103,18 @@ const SoilQualityTester = () => {
           <p>
             If you have any further questions about the return/exchange policy, please contact us at <a href="mailto:orders@kanikaplayhub.com">orders@kanikaplayhub.com</a>.
           </p>
-        </p>
-      </div>
-    </div>
 
+          <h2>Refunds</h2>
+          <p>
+            We will notify you once we’ve received and inspected your return, and let you know if the refund was approved or not. If approved, you’ll be automatically refunded on your original payment method within 10 business days. Please remember it can take some time for your bank or credit card company to process and post the refund too.
+          </p>
+          <p>
+            If more than 3 business days have passed since we’ve approved your return, please contact us at <a href="mailto:support@kanikaplayhub.com">support@kanikaplayhub.com</a>.
+          </p>
+        </div>
+      </div>
     </Layout>
   );
 };
 
 export default SoilQualityTester;
-
-
- 
